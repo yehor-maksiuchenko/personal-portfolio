@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function MainHeader() {
   return (
-    <header className="flex items-center justify-between px-6 py-4 border-b">
+    <header className="flex items-center 
+    justify-between px-6 py-4 border-b-2">
       <Link className="text-xl font-bold" href="../home">
         Yehor
       </Link>
