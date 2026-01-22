@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function MainHeader() {
   return (
-    <header className="flex items-center 
+    <header className="flex items-center bg-highlight-background 
     justify-between px-6 py-4 border-b-2">
-      <Link className="text-xl font-bold" href="../home">
+      <Link className="text-xl font-bold" href="/">
         Yehor
       </Link>
       <nav className="flex gap-6">
-        <Link href="/home">Home</Link>
+        <Link href="/">Home</Link>
         <Link href="/projects">Projects</Link>
         <Link href="/blog">Blog</Link>
       </nav>
