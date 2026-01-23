@@ -6,10 +6,10 @@ type AccentButtonProps = {
 export default function AccentButton({ text, href } : AccentButtonProps) {
     return(
         <div className="flex justify-center
-            md:justify-start gap-4">
+            md:justify- gap-4">
               <a href={href} className="
               px-6 py-3 text-lg font-bold
-               text-second-accent not-italic
+              text-second-accent not-italic
               border-3 border-second-accent
               rounded-none no-underline bg-accent/60 
 

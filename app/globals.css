@@ -5,19 +5,23 @@
 :root {
   --background: #ffebd0;
   --highlight-background: #ffe2bc;
+  --highlight-background-hover: #f0cea2;
+
   --foreground: #702900;
-  --primary: #C1121F;
-  --complementary: #780000;
-  --secondary-complementary: #056334;
+  --red-primary: #C1121F;
+  --red-secondary: #780000;
+  
+  --green-secondary: #056334;
+
   --accent: #a7ddff;
   --second-accent: #074769;
   --accent-hover: #96d5fd;
-  --second-accent-hover: #eaeff9;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-highlight-background: var(--highlight-background);
+  --color-bg: var(--background);
+  --color-highlight-bg: var(--highlight-background);
+  --color-highlight-bg-hover: var(--highlight-background-hover);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-complementary: var(--complementary);

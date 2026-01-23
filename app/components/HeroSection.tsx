@@ -3,7 +3,7 @@ import AccentButton from "../components/AccentButton";
 export default function HeroSection() {
     return (
         <section 
-      className="bg-highlight-background
+      className="bg-highlight-bg
       border-b-2 text-foreground">
         <div
         className="max-w-7xl mx-auto px-4 sm:px-6
